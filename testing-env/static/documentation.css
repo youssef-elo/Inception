@@ -1,0 +1,145 @@
+*{
+    font-family: 'Oswald';
+}
+
+body{
+    background-color: #FDFFF5;
+}
+
+/* Text look */
+p{
+    font-family: 'roboto';
+    text-indent: 5px;
+    width: 90%;
+    /* margin : 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#main-doc li{
+    font-family: 'roboto';
+}
+
+#main-doc h2{
+    margin-left: 10px;;
+}
+
+
+/* NAV BAR */
+.nav-bar{
+    text-decoration: none;
+    /* height: 250px; */
+    overflow: scroll;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar ul{
+    border: 1px solid grey;
+    padding: 0;
+}
+
+.nav-bar li{
+    list-style: none;
+    border-top: 1px solid grey;
+    padding-left: 20px;
+} 
+/* End Nav Bar */
+
+
+/* code snippets */
+code{
+    background-color: lightgrey;
+    width: 92%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    margin : 0 auto;
+    /* font-size: 15px; */
+    display: block;
+    font-family:  "Source Code Pro";
+    margin-bottom: 10px;
+}
+
+#reference{
+    text-align: center;
+}
+
+
+/* responsicness for bigger screens */
+
+@media (min-width: 1024px){ 
+    .nav-bar{
+        position: fixed;
+        z-index: 20;
+        background-color:#FDFFF5;
+        height: 100vh;
+        width: 23vw;
+        font-size: 23px;
+        border-right: 2px solid grey;
+        overflow: hidden;
+    }
+    .nav-bar li{
+        border-top: 2px solid grey;
+        padding: 20px 10px;
+    }
+    .nav-bar ul{
+        border: none;
+        padding: 0;
+    }
+    #main-doc{
+        margin-left: 24vw;
+    }
+
+}
+@media (min-width: 1441px){ 
+    .nav-bar{
+        position: fixed;
+        z-index: 20;
+        background-color:#FDFFF5;
+        height: 100vh;
+        width: 28vw;
+        font-size: 23px;
+        border-right: 2px solid grey;
+        overflow: hidden;
+    }
+    .nav-bar li{
+        border-top: 2px solid grey;
+        padding: 20px 10px;
+    }
+    .nav-bar ul{
+        border: none;
+        padding: 0;
+    }
+    #main-doc{
+        margin-left: 29vw;
+    }
+}
+
+@media (min-width: 2559px){
+    *
+    {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
