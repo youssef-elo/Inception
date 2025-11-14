@@ -29,7 +29,7 @@ services:
 
   nginx:
     build:
-      context: .
+      context: ./nginx
       dockerfile: Dockerfile
     restart: unless-stopped
     ports:

@@ -1,0 +1,2 @@
+use secrets for any credentials 
+make the dockerfile for mariadb from debian bookworm
